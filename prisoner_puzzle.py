@@ -18,7 +18,7 @@ def run_sim(n_prisoners):
         done = False
         success = False
         while done == False:
-            if tries == n_prisoners/2:
+            if tries == n_prisoners//2:
                 done = True
                 success = False
                 
